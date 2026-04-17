@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | iGAP Technologies</title>
+  <meta name="description" content="Secure login experience for iGAP Technologies with premium enterprise-style UI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/logo.ico">
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true">
+    <span class="bg-orb bg-orb-one"></span>
+    <span class="bg-orb bg-orb-two"></span>
+    <span class="bg-grid"></span>
+  </div>
+
+  <header class="navbar" id="top">
+    <div class="container nav-container">
+      <a href="index.html" class="brand" aria-label="iGAP Technologies home">
+        <img src="assets/logo.ico" class="logo-img" alt="iGAP Technologies logo">
+      </a>
+
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="academy.html">Academy</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="nav-cta"><a href="login.html" class="btn btn-primary">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="login-page">
+    <section class="section">
+      <div class="container login-layout">
+        <div class="login-showcase glass-card reveal">
+          <span class="eyebrow">Secure Client Access</span>
+          <h1>Elegant access for teams, clients, and internal operations.</h1>
+          <p class="hero-text">
+            A refined sign-in experience should feel fast, trustworthy, and beautifully organized. This layout is
+            designed to communicate security and product maturity from the first interaction.
+          </p>
+
+          <div class="login-benefits">
+            <article>
+              <strong>Protected Access</strong>
+              <span>Clean authentication flow with a strong enterprise feel.</span>
+            </article>
+            <article>
+              <strong>Role-ready Experience</strong>
+              <span>Suitable for dashboards, admin systems, ERP panels, or client portals.</span>
+            </article>
+            <article>
+              <strong>Premium UI Language</strong>
+              <span>Calm visual hierarchy, depth, spacing, and polish across every state.</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="login-card glass-card reveal">
+          <div class="login-card-top">
+            <!-- <img src="assets/logo.ico" alt="iGAP Technologies logo"> -->
+            <div>
+              <span class="mini-label">Welcome back</span>
+              <h2>Sign in to continue</h2>
+            </div>
+          </div>
+
+          <form class="login-form">
+            <label class="form-field">
+              <span>Email Address</span>
+              <input type="email" placeholder="name@company.com">
+            </label>
+
+            <label class="form-field">
+              <span>Password</span>
+              <input type="password" placeholder="Enter your password">
+            </label>
+
+            <div class="login-row">
+              <label class="remember-me">
+                <input type="checkbox">
+                <span>Remember me</span>
+              </label>
+              <a href="#" class="text-link">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn btn-primary login-submit">Sign In</button>
+
+            <div class="login-divider">
+              <span>or continue with</span>
+            </div>
+
+            <div class="social-grid">
+              <button type="button" class="social-btn">Google</button>
+              <button type="button" class="social-btn">Microsoft</button>
+            </div>
+
+            <p class="login-note">Need a portal or ERP login like this? <a href="contact.html" class="text-link">Talk to iGAP</a></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
